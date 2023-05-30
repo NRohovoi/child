@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-color: var(--white-color);
+    color: var(--contact-link-text-color);
+    font-size: 2em;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  .wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  .first {
+    display: flex;
+
+    width: 100%;
+  }
+  .second {
+    display: flex;
+    width: 100%;
+  }
+  .third  {
+    display: flex;
+    width: 100%;
+  }
+.item {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+}
+.item.symbol {
+    width: 500px;
+}
+.item.hero {
+    padding-top: 27px;
+}
+.item.history {
+    width: 100px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.item.mysticism {
+    width: 100px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-right: 20px ;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition-property: color, font-weight;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover,
+.link:focus {
+  color: orange;
+  font-weight: bolder;
+}
+.hero-link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 74px;
+    width: 169px;
+    text-align: center;
+    color: inherit;
+    background-color: rgba(39, 27, 27, 0);
+    border: 5px solid rgb(216, 10, 10);
+    border-radius: 25px;
+    margin: 15px 15px;
+    padding: 5px 13px;
+    font-size: 24px;
+
+    transition-property: color, font-weight;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-link:hover,
+.hero-link:focus {
+  color: orange;
+  font-weight: bolder;
+}
+
+.title {
+    color: rgb(9, 9, 233);
+}
+.accent_title{ color:rgb(216, 216, 41);}
