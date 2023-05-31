@@ -16,10 +16,15 @@ html {
     letter-spacing: 0.03em;
   }
   .wrapper {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     width: 700px;
+    border: 11px solid black;
+    border-radius: 30px;
   }
   .first {
     display: flex;
@@ -69,6 +74,8 @@ html {
   font-weight: bolder;
 }
 .hero-link {
+  margin-top: 5px;
+  margin-left: 20px;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -77,9 +84,9 @@ html {
     text-align: center;
     color: inherit;
     background-color: rgba(39, 27, 27, 0);
-    border: 5px solid rgb(216, 10, 10);
+    border: 5px solid orange;
     border-radius: 25px;
-    margin: 15px 15px;
+
     padding: 5px 13px;
     font-size: 24px;
 
@@ -91,9 +98,115 @@ html {
 .hero-link:focus {
   color: orange;
   font-weight: bolder;
+  border: 5px solid rgb(160, 88, 88);
 }
 
 .title {
     color: rgb(9, 9, 233);
 }
 .accent_title{ color:rgb(216, 216, 41);}
+
+.symbol-wrapper {
+  background-image: url('../images/symbol.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 98vh;
+}
+.hero-wrapper {
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 98vh;
+}
+.hero-article {
+  width: 900px;
+  text-align: center;
+}
+.hero-title {
+  font-size: 50px;
+}
+
+.hero-paragraph {
+  font-size: 24px;
+}
+.history-title{
+  font-size: 40px;
+  text-align: center;
+}
+.history-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  width: 700px;
+  height: 400px;
+}
+.article-title {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 10px;
+}
+.mysticism-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mysticism-title {
+  font-size: 40px;
+}
+.mysticism-after-title{
+  font-size: 24px;
+}
+.mysticism-article-title{
+  font-size: 36px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mysticism-list {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.mysticism-item {
+  padding: 10px;
+  width: 500px;
+  height: 400px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+.item-title{
+  font-size: 32px;
+  text-align: center;
+}
+
+.item-paragraph {
+  font-size: 16px;
+}
+.first-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.monuments-video {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.monuments-title{
+  text-align: center;
+  font-size: 30px;
+}
